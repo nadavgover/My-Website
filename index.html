@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nadav Gover's Portfolio</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="lity-2.4.0/dist/lity.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="lity-2.4.0/vendor/jquery.js"></script>
+    <script src="lity-2.4.0/dist/lity.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+</head>
+<body>
+    <header class="header">
+        <div class="title">
+            <a class="name">Nadav Gover</a>
+        </div>
+        <p class="quotation"> 
+            Logic will get you from A to B. 
+            <span class="green-word">Imagination</span> 
+            will take you everywhere.</p>
+        <footer class="quotation-author">— Albert Einstein</footer>
+        
+        <nav class="">
+            <ul class="scrollable">
+                <!-- <li><img src="static/img/logo.jpg" alt="nadav gover profile picture" class="logo"></li> -->
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <!-- <li class="float-right"><a href="http://www.github.com/nadavgover" target="_blank"> <i class="fa fa-lg fa-github"></i></a></li> -->
+            </ul> 
+        </nav>
+    </header>
+    <section id="about">
+        <h3 class="section-title">About Me</h3>
+        <div class="section-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dapibus diam. Nullam pharetra faucibus accumsan. Donec faucibus ex nec mollis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam egestas nunc ut eros tempor, mollis bibendum diam eleifend. Proin sit amet bibendum lectus. Praesent suscipit eros velit, vitae scelerisque ligula vulputate in.</p>
+            <p>Morbi a odio porttitor, elementum nibh sit amet, aliquet elit. Aliquam nibh ipsum, pretium pellentesque dui et, auctor iaculis nunc. Vestibulum id augue ac felis iaculis pharetra in eu ante. Nullam augue lorem, hendrerit eget nibh nec, lacinia feugiat lorem. Maecenas.</p>
+        </div>
+    </section>
+    <section id="projects" class="projects-container">
+        <h3 class="section-title">Projects</h3>
+        <div class="section-description">
+            <p>Check out some of my projects I did over the years.</p>
+        </div>
+        <div class="project-category-container">
+            <h5 id="algo-coding" class="project-category">
+                Algo Coding
+            </h5>
+            <div class="carousel-container"> 
+                <div class="carousel" data-flickity='{ "imagesLoaded": true, "initialIndex": 0, "setGallerySize": true, "wrapAround": true, "watchCSS": true }'>
+                    <div class="carousel-cell aspect-ratio-1-1" data-aspect-ratio="297:297">
+                        <a href="#sudoku" data-lity><img src="static/img/sudoku.gif" alt="Sudoku Solver" ></a>
+                    </div>
+                    <div class="carousel-cell aspect-ratio-235-214" data-aspect-ratio="235:214">
+                        <a href="#wikipedia" data-lity><img src="static/img/wikipedia.jpg" alt="Wikipedia Game" ></a>
+                    </div>
+                    <div class="carousel-cell aspect-ratio-1200-1040" data-aspect-ratio="1200:1040">
+                        <a href="#passover-map" data-lity><img src="static/img/knapsack.png" alt="Multiple Knapsack Problem"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-category-container">
+            <h5 id="machine-learning" class="project-category">
+                Machine Learning
+            </h5>
+            <div class="carousel-container"> 
+                <div class="carousel" data-flickity='{ "imagesLoaded": true, "initialIndex": 0, "setGallerySize": true, "wrapAround": true, "watchCSS": true }'>
+                    <div class="carousel-cell aspect-ratio-796-765" data-aspect-ratio="297:297">
+                        <a href="#mnist" data-lity><img src="static/img/mnist.JPG" alt="mnist digit recognition" ></a>
+                    </div>
+                    <div class="carousel-cell" data-aspect-ratio="235:214">
+                        <a href="#wikipedia" data-lity><img src="static/img/wikipedia.jpg" alt="Wikipedia Game" ></a>
+                    </div>
+                    <div class="carousel-cell" data-aspect-ratio="1200:1040">
+                        <a href="#passover-map" data-lity><img src="static/img/knapsack.png" alt="Multiple Knapsack Problem"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-category-container last">
+            <h5 id="infosec" class="project-category">
+                Information Security
+            </h5>
+            <div class="carousel-container"> 
+                <div class="carousel" data-flickity='{ "imagesLoaded": true, "initialIndex": 0, "setGallerySize": true, "wrapAround": true, "watchCSS": true }'>
+                    <div class="carousel-cell" data-aspect-ratio="297:297">
+                        <a href="#sudoku" data-lity><img src="static/img/sudoku.gif" alt="Sudoku Solver" ></a>
+                    </div>
+                    <div class="carousel-cell" data-aspect-ratio="235:214">
+                        <a href="#wikipedia" data-lity><img src="static/img/wikipedia.jpg" alt="Wikipedia Game" ></a>
+                    </div>
+                    <div class="carousel-cell" data-aspect-ratio="1200:1040">
+                        <a href="#passover-map" data-lity><img src="static/img/knapsack.png" alt="Multiple Knapsack Problem"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--light boxes-->
+    <div id="sudoku" class="lightbox-content-scroll lity-hide">
+        <div class="scrollable-content">
+            <h2>Sudoku Solver</h2>
+            <p>The Suduko solver, as it names implies, solves a Sudoku puzzle using <a href="https://en.wikipedia.org/wiki/Backtracking" target="_blank">backtracking algorithm</a>.
+                It is implemented with Python.
+            </p>
+            <p>
+                This is probably the first project I've done with Python. The decision to make this project
+                came during a 6 hours long bus ride with my friends. We had nothing to do during the ride and one of the friends
+                brought a newspaper with him. So we started solving all the puzzles there. When we got to the hard Suduko, it seemed as it was 
+                too hard for us to do during a bus ride. It was in this moment where I decided that I will never solve a Suduko puzzle ever again.
+                When I got home I immidiately started working on the Sudoku solver. 
+            </p>
+            <p>
+                You know how when you come about to solve a Sudoku you right small digits in the corner of a cell, meaning only these numbers can occupy this cell,
+                otherwise it will be a violation of the Sudoku rules? So that's what the Suduko solver knew what to do in the beginning.
+                It went through all the puzzle and remembered what can go where. After that, it looked where it had only one option for a cell and filled this number in. And do this all over again until you finish.
+                So:
+                <ol>
+                    <li>Iterate through all the cells in the puzzle and check all the options for each cell</li>
+                    <li>Fill in all the cells that have only one option</li>
+                    <li>Repeat until the Sudoku is solved</li>
+                </ol>
+            </p>
+
+            <p>
+                While this method works well on easy Sudokus, it fails to solve hard ones. 
+                The reason is that hard Sudokus often don't have a cell with only one option, which will cause the proposed method to go in an infinite loop. 
+                So we need to come up with a new method to overcome this problem.
+            </p>
+            <p>
+                Insted of repeating infinitly, we can guess a number from the list of options we got in step 1, try to solve the Sudoku with this guess, and if it works then this is a solution. If not (e.g. same number in same row), we track our steps backwads and guess the next number in the list of options. 
+                This method is called backtracking.
+                Since we know that one of the options has to solve the puzzle, we can be sure that we will not encounter an infinite loop this time. So:
+                <ol>
+                    <li>If Sudoku rules are not violated: <br>
+                        &emsp;Iterate through all the cells in the puzzle and check all the options for each cell <br>
+                        &emsp;If some cells have one option: <br>
+                        &emsp;&emsp;Fill in all the cells that have only one option <br>
+                        &emsp;Else: (must guess a number) <br>
+                        &emsp;&emsp;Pick the cell with the fewest options (this will help it run faster) and guess one of the options 
+                    </li>
+                    <li>
+                        Else: (if sudoku rules are violated) <br>
+                        &emsp;Back track. Delte all changes from last guess and guess another number.
+                    </li>
+                    <li>Repeat until the Sudoku is solved</li>
+                </ol>
+                This is usually implemented with recursion, and so is the case in my sudoku solver. 
+            </p>
+            <p>
+                    <a href="https://github.com/nadavgover/Sudoku-Solver" target="_blank">View code</a> on GitHub
+            </p>
+        </div>
+    </div>
+    <div id="wikipedia" class="lightbox-content-scroll lity-hide">
+        <div class="scrollable-content">
+            <h2>Wikpedia Game</h2>
+            <p>
+                The rules of the wikipepdia game are simple. Players start on a randomly selected Wikipedia page and must navigate to another given page only by clicking links in the current article. 
+                The goal is to arrive at the home with the fewest number of clicks (steps) and in the least amount of time.
+            </p>
+            <p>
+                This project is all about winning this game. Given a source page and a destination page, the program yields the shortest path. 
+                And when you say shortest path, you say <a href="https://en.wikipedia.org/wiki/Breadth-first_search" target="_blank">Breadth-first search (BFS)</a> algorithm.
+                And indeed this project was implemented with the BFS algorithm and using linked lists with Python.
+            </p>
+            <p>
+                The BFS algorithm finds the shortest path from a node in a tree to another node. For that we need a tree and to define what each node is. 
+                So each node in the tree is a wikipedia page, the root of the tree being the source page, and the descendents of each node are the links in its wikipedia page.
+                Also, in BFS there is a use of queue, so the queue was implemented with a linked list.
+                The algorithm guarentees to yield the shortest path but there might be more than one path with the same length.
+            </p>
+            <p>
+                <a href="https://github.com/nadavgover/Wikipedia-Game" target="_blank">View code</a> on GitHub
+            </p>
+            <p>
+                Try it yourself, just press the green run button:
+            </p>
+            <iframe height="400px" width="100%" src="https://repl.it/@NadavGover/Wikipedia-Game?lite=true&outputonly=1" 
+            scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
+            </iframe>
+        </div>
+    </div>
+    <div id="passover-map" class="lightbox-content-scroll lity-hide">
+        <div class="scrollable-content">
+            <h2>Multiple Knapsack Problem</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dapibus diam. Nullam pharetra faucibus accumsan. Donec faucibus ex nec mollis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam egestas nunc ut eros tempor, mollis bibendum diam eleifend. Proin sit amet bibendum lectus. Praesent suscipit eros velit, vitae scelerisque ligula vulputate in.</p>
+            <p>Morbi a odio porttitor, elementum nibh sit amet, aliquet elit. Aliquam nibh ipsum, pretium pellentesque dui et, auctor iaculis nunc. Vestibulum id augue ac felis iaculis pharetra in eu ante. Nullam augue lorem, hendrerit eget nibh nec, lacinia feugiat lorem. Maecenas.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dapibus diam. Nullam pharetra faucibus accumsan. Donec faucibus ex nec mollis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam egestas nunc ut eros tempor, mollis bibendum diam eleifend. Proin sit amet bibendum lectus. Praesent suscipit eros velit, vitae scelerisque ligula vulputate in.</p>
+            <p>Morbi a odio porttitor, elementum nibh sit amet, aliquet elit. Aliquam nibh ipsum, pretium pellentesque dui et, auctor iaculis nunc. Vestibulum id augue ac felis iaculis pharetra in eu ante. Nullam augue lorem, hendrerit eget nibh nec, lacinia feugiat lorem. Maecenas.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dapibus diam. Nullam pharetra faucibus accumsan. Donec faucibus ex nec mollis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam egestas nunc ut eros tempor, mollis bibendum diam eleifend. Proin sit amet bibendum lectus. Praesent suscipit eros velit, vitae scelerisque ligula vulputate in.</p>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div id="contact" class="socialbtns">
+            
+            <ul>
+                <li>Contact me at:</li>
+                <li><a href="http://www.github.com/nadavgover" target="_blank"> <i class="fa fa-lg fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/nadavgover/" target="_blank"> <i class="fa fa-lg fa-instagram"></i></a></li>
+                <li><a href="mailto:nadavgover@gmail.com"><i class="fa fa-lg fa-envelope"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
