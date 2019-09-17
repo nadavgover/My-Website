@@ -57,8 +57,8 @@
             </h5>
             <div class="carousel-container"> 
                 <div class="carousel" data-flickity='{ "imagesLoaded": true, "initialIndex": 0, "setGallerySize": true, "wrapAround": true, "watchCSS": true }'>
-                    <div class="carousel-cell aspect-ratio-1-1" data-aspect-ratio="297:297">
-                        <a href="#sudoku" data-lity><img src="static/img/sudoku.gif" alt="Sudoku Solver" ></a>
+                    <div class="carousel-cell aspect-ratio-524-610" data-aspect-ratio="297:297">
+                        <a href="#sudoku" data-lity><img src="static/img/sudoku.JPG" alt="Sudoku Solver" ></a>
                     </div>
                     <div class="carousel-cell aspect-ratio-235-214" data-aspect-ratio="235:214">
                         <a href="#wikipedia" data-lity><img src="static/img/wikipedia.jpg" alt="Wikipedia Game" ></a>
@@ -76,11 +76,11 @@
             </h5>
             <div class="carousel-container"> 
                 <div class="carousel" data-flickity='{ "imagesLoaded": true, "initialIndex": 0, "setGallerySize": true, "wrapAround": true, "watchCSS": true }'>
-                    <div class="carousel-cell aspect-ratio-796-765" data-aspect-ratio="297:297">
+                    <div class="carousel-cell aspect-ratio-796-765">
                         <a href="#mnist" data-lity><img src="static/img/mnist.JPG" alt="mnist digit recognition" ></a>
                     </div>
-                    <div class="carousel-cell" data-aspect-ratio="235:214">
-                        <a href="#wikipedia" data-lity><img src="static/img/wikipedia.jpg" alt="Wikipedia Game" ></a>
+                    <div class="carousel-cell aspect-ratio-1280-623">
+                        <a href="#iris-svm" data-lity><img src="static/img/iris_scatter_plot.png" alt="Iris data set scatter plot" ></a>
                     </div>
                     <div class="carousel-cell" data-aspect-ratio="1200:1040">
                         <a href="#passover-map" data-lity><img src="static/img/knapsack.png" alt="Multiple Knapsack Problem"></a>
@@ -161,6 +161,9 @@
             <p>
                     <a href="https://github.com/nadavgover/Sudoku-Solver" target="_blank">View code</a> on GitHub
             </p>
+            <p>
+                <a href="https://repl.it/@NadavGover/Sudoku-Solver" target="_blank">Try it yourself</a> just press the green run button
+            </p>
         </div>
     </div>
     <div id="wikipedia" class="lightbox-content-scroll lity-hide">
@@ -168,7 +171,7 @@
             <h2>Wikpedia Game</h2>
             <p>
                 The rules of the wikipepdia game are simple. Players start on a randomly selected Wikipedia page and must navigate to another given page only by clicking links in the current article. 
-                The goal is to arrive at the home with the fewest number of clicks (steps) and in the least amount of time.
+                The goal is to arrive at the destination page with the fewest number of clicks (steps) and in the least amount of time.
             </p>
             <p>
                 This project is all about winning this game. Given a source page and a destination page, the program yields the shortest path. 
@@ -185,21 +188,91 @@
                 <a href="https://github.com/nadavgover/Wikipedia-Game" target="_blank">View code</a> on GitHub
             </p>
             <p>
-                Try it yourself, just press the green run button:
+                <a href="https://repl.it/@NadavGover/Wikipedia-Game" target="_blank">Try it yourself</a> just press the green run button
             </p>
-            <iframe height="400px" width="100%" src="https://repl.it/@NadavGover/Wikipedia-Game?lite=true&outputonly=1" 
-            scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
-            </iframe>
         </div>
     </div>
     <div id="passover-map" class="lightbox-content-scroll lity-hide">
         <div class="scrollable-content">
-            <h2>Multiple Knapsack Problem</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dapibus diam. Nullam pharetra faucibus accumsan. Donec faucibus ex nec mollis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam egestas nunc ut eros tempor, mollis bibendum diam eleifend. Proin sit amet bibendum lectus. Praesent suscipit eros velit, vitae scelerisque ligula vulputate in.</p>
-            <p>Morbi a odio porttitor, elementum nibh sit amet, aliquet elit. Aliquam nibh ipsum, pretium pellentesque dui et, auctor iaculis nunc. Vestibulum id augue ac felis iaculis pharetra in eu ante. Nullam augue lorem, hendrerit eget nibh nec, lacinia feugiat lorem. Maecenas.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dapibus diam. Nullam pharetra faucibus accumsan. Donec faucibus ex nec mollis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam egestas nunc ut eros tempor, mollis bibendum diam eleifend. Proin sit amet bibendum lectus. Praesent suscipit eros velit, vitae scelerisque ligula vulputate in.</p>
-            <p>Morbi a odio porttitor, elementum nibh sit amet, aliquet elit. Aliquam nibh ipsum, pretium pellentesque dui et, auctor iaculis nunc. Vestibulum id augue ac felis iaculis pharetra in eu ante. Nullam augue lorem, hendrerit eget nibh nec, lacinia feugiat lorem. Maecenas.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dapibus diam. Nullam pharetra faucibus accumsan. Donec faucibus ex nec mollis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam egestas nunc ut eros tempor, mollis bibendum diam eleifend. Proin sit amet bibendum lectus. Praesent suscipit eros velit, vitae scelerisque ligula vulputate in.</p>
+            <h2>Bin Packing Problem</h2>
+            <p>
+                in the <a href="https://en.wikipedia.org/wiki/Bin_packing_problem" target="_blank">Bin Packing problem</a>
+                items of different volumes must be packed into a finite number of bins or containers each of volume V in a way that minimizes the number of bins used.
+                It differs from the <a href="https://en.wikipedia.org/wiki/Knapsack_problem">multiple knapsack problem</a>
+                in that all items have to be packed to certain bins, whereas, in the multiple knapsack problem a subset of items can be selected.
+            </p>
+            <p>
+                The motivation for this project is to optimally place guests in an event with limited amount of tables.
+                The tables are the bins and the guests are the items. This problem is known to be NP-hard. 
+                To implement this with a short running time there was a use of <a href="https://en.wikipedia.org/wiki/Dynamic_programming" target="_blank">dynamic programming</a>. 
+                A matrix with rows representing the guests and columns representing the tables was implemented. Each entry
+                in the matrix is the amount of guests that could be placed with the current tables set.
+            </p>
+            <p>
+                To be more specific, each guest may have a constraint or many constraints. For example a guest can ask to be in a certain table or to sit next to some other guest.
+                Perhaps the guest requires a wheel chair and not all tables have the that option. And many other constraints.
+            </p>
+            <p>
+                All of this the dynamic programming (dp) matrix takes into account and yields the best result 
+                with runtime of <br> O(number of guests + number of tables). 
+            </p>
+            <p>
+                Bonus fact: This project is actually used in practice to place guests in the passover "seder" of Kibbutz Maagan Michael
+            </p>
+            <p>
+                <a href="https://github.com/nadavgover/Passover-Map" target="_blank">View code</a> on GitHub
+            </p>
+        </div>
+    </div>
+
+    <div id="mnist" class="lightbox-content-scroll lity-hide">
+        <div class="scrollable-content">
+            <h2>Digit Recognition</h2>
+            <p>
+                This project is divided in to two parts.
+                In the first part there was a use of a multi-class perceptron classifier. A multi-class perceptron classifier is the extension of the <a href="https://en.wikipedia.org/wiki/Perceptron#Learning_algorithm" target="_blank">Perceptron Learning Algorithm</a> (PLA) for binary classification.
+                One-vs-all strategy was used which means each class was trained to identify if the input is from its class or not (binary classification).
+                The input, in this case (so as in the second part of this project), was the MNIST data set which is constructed out of 70,000 images of hand written digits between 0-9. This means that for the multi-class classifier 10 different classes were trained (1 for each digit).
+                To then predict the input image correctly, the label that gets the highest confidence is the prediction.
+            </p>
+            <p>
+                Since the input data is not linearly separable, PLA will never terminate, and its behavior can become quite unstable, and can jump from a good perceptron to a very bad one within one update. 
+                To overcome this, the <a href="https://en.wikipedia.org/wiki/Perceptron#Variants" target="_blank">pocket algorithm</a> was used. This algorithm keeps 'in its pocket' the best weight vector encountered up to iteration t in PLA. 
+                In the end, the best weight vector will be reported as the final hypothesis.
+            </p>
+            <p>
+                In the second part of the project a <a href="https://en.wikipedia.org/wiki/Multinomial_logistic_regression" target="_blank">Softmax Regression</a> was applied on the MNIST dataset. 
+                Softmax regression (or multinomial logistic regression) is a generalization of logistic regression to the case where we want to handle multiple classes.
+                The cost function is the <a href="https://en.wikipedia.org/wiki/Cross_entropy" target="_blank">cross-entropy error</a> but generalized to K classes.
+                The composition function is the <a href="https://en.wikipedia.org/wiki/Sigmoid_function" target="_blank">sigmoid</a> function. Since zero valued inputs can artificially kill weight updates, the inputs were scaled to be between 0.01 to 1 and not 0 to 1.
+                The weights were updated using <a href="https://en.wikipedia.org/wiki/Gradient_descent" target="_blank">gradient descent</a>.    
+            </p>
+            <p>
+                <a href="https://github.com/nadavgover/Digit-Recognition/" target="_blank">View code</a>, final reults and conclusions on GitHub
+            </p>
+            <p>
+                <a href="https://repl.it/@NadavGover/Digit-Recognition" target="_blank">Try it yourself</a> just press the green run button
+            </p>
+        </div>
+    </div>
+
+    <div id="iris-svm" class="lightbox-content-scroll lity-hide">
+        <div class="scrollable-content">
+            <h2>Iris (flower) Classifier</h2>
+            <p>
+                In this project the input is the Iris data set. It consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor), so 150 total samples. 
+                One class is linearly separable from the other two; the latter are not linearly separable from each other. 
+                Four features were measured from each sample: the length and the width of sepals and petals, in centimeters.
+            </p>
+            <p>
+                In this project models were trained with <a href="https://en.wikipedia.org/wiki/Support-vector_machine" target="_blank">Support-vector machines (SVM)</a> using <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-98-14.pdf" target="_blank">Sequential Minimal Optimization (SMO)</a> with linear and RBF kernels.
+                To compare those two models, consider these two criteria: run time and performance.
+                The run time of both models is approximately 10 seconds. The differences between the run times can be neglected because they are very small.
+                Performance in the sense of accuracy the RBF kernel achieved in average 5% more than the linear kernel. The RBF kernel preformed well on both the linearly separable data and the non-linearly separable data while the linear kernel preformed well only on the linearly separable data.  
+            </p>
+            <p>
+                <a href="https://github.com/nadavgover/Iris-Classifier-with-SVM" target="_blank">View code</a>, final reults and conclusions on GitHub
+            </p>
         </div>
     </div>
     </section>

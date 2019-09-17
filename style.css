@@ -293,10 +293,10 @@ ul.scrollable li:hover {
   
 }
 
-.carousel-cell.aspect-ratio-1-1{
+.carousel-cell.aspect-ratio-524-610{
   /*The aspect ratio is calculated like so:
   the right side of aspect ratio divided by left side, all this times .carousel-cell height*/
-  width: 200px;
+  width: 172px;
 }
 
 .carousel-cell.aspect-ratio-235-214{
@@ -315,6 +315,12 @@ ul.scrollable li:hover {
   /*The aspect ratio is calculated like so:
   the right side of aspect ratio divided by left side, all this times .carousel-cell height*/
   width: 192px;
+}
+
+.carousel-cell.aspect-ratio-1280-623{
+  /*The aspect ratio is calculated like so:
+  the right side of aspect ratio divided by left side, all this times .carousel-cell height*/
+  width: 410px;
 }
 
 .carousel .carousel-cell a{
@@ -393,45 +399,8 @@ ul.scrollable li:hover {
   }
 } */
 
-@media screen and ( max-width: 700px ) {
-    /* disable Flickity for small devices */
-    .carousel:after {
-      content: '';
-    }
-    /* .carousel img {
-      height: 300px;
-      width: auto;
-    } */
-    .carousel-cell{
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0;
-      margin-bottom: 40px;
-    }
 
-    .carousel .carousel-cell:last-child {
-      margin-bottom: 0px;
-  }
-    .carousel img {
-      top: auto;
-      transform: none;
-      position: static;
-      width: 100%;
-  }
-
-  .project-category-container{
-    border: none;
-    margin-bottom: 20px;
-  }
-
-  .carousel-container{
-    margin-bottom: 20px;
-  }
-
-  .lightbox-content-scroll {
-    margin: 0;
-  }
-}
+/* End of flickity */
 
 .lightbox-content-scroll {
   background: white;
@@ -444,8 +413,80 @@ ul.scrollable li:hover {
   overflow: auto;
 }
 
+@media screen and ( max-width: 700px ) {
 
-/* End of flickity */
+  body>header,section,footer{
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+  }
+    /* disable Flickity for small devices */
+    /* .carousel:after {
+      content: '';
+    } */
+
+  /* position dots in carousel */
+  .flickity-page-dots {
+    bottom: 20px;
+  }
+  
+  /*small prev next buttons*/
+  .flickity-prev-next-button {
+    width: 25px;
+    height: 25px;
+  }
+
+  .flickity-button {
+    background: black;
+  }
+
+  .flickity-button:hover {
+    background: black;
+  }
+
+  .flickity-button-icon {
+    fill: white;
+  }
+
+  /* position outside */
+  .flickity-prev-next-button.previous {
+    left: -30px;
+  }
+  .flickity-prev-next-button.next {
+    right: -30px;
+  }
+
+  .carousel-cell{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .carousel .carousel-cell:last-child {
+    margin-bottom: 0px;
+}
+  .carousel img {
+    top: auto;
+    transform: none;
+    position: static;
+    width: 100%;
+}
+
+  .project-category-container{
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .carousel-container{
+    margin-bottom: 20px;
+  }
+
+  .lightbox-content-scroll {
+    margin: 50px 10px;
+  }
+}
+
+
 
 /* footer{
     background: black;
