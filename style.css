@@ -444,7 +444,7 @@ ul.scrollable li:hover {
   overflow: auto;
 }
 
-@media ( max-width: 700px ) {
+@media screen and ( max-width: 700px ) {
 
   body>header,section,footer {
     margin-left: 10vmin;
