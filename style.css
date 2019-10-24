@@ -444,9 +444,9 @@ ul.scrollable li:hover {
   overflow: auto;
 }
 
-@media screen and ( max-width: 700px ) {
+@media ( max-width: 700px ) {
 
-  body>header,section,footer{
+  body>header,section,footer {
     margin-left: 10vmin;
     margin-right: 10vmin;
   }
@@ -530,7 +530,6 @@ ul.scrollable li:hover {
 * {
     box-sizing: border-box;
   }
-  
 
   /* footer */
 .socialbtns ul {
