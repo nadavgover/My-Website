@@ -9,9 +9,10 @@ body{
     top: 0;
     left: 0;
     padding: 0;
-    /* margin: 0; */
-    margin: 20px 0;
+    margin: 0;
+    /* margin: 20px 0; */
     width: 100%;
+    /* height: 100%; */
     /* height: 100%; */
     /* background: rgb(165, 84, 84); */
     font-family: 'Work Sans', Helvetica, Arial, sans-serif;
@@ -21,6 +22,98 @@ body{
 body>header,section,footer{
     margin-left: 25vmin;
     margin-right: 25vmin;
+}
+
+.slider, .load, .principal, .content {
+  margin: 0;
+  padding: 0;
+}
+
+/* .slider{
+  margin-top: -10px;
+} */
+
+.load {
+  animation: slide 2s;
+}
+
+.slider {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: slide 30s infinite;
+}
+
+.content{
+  /* color: #4a8b5c; */
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.principal{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+/* .principal h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+} */
+
+/* .principal p {
+  font-size: 20px;
+} */
+
+@keyframes slide {
+  0%{
+    background-image: url('static/img/slideshow/1.jpg');
+  }
+  14.3%{
+    background-image: url('static/img/slideshow/1.jpg');
+  }
+  14.301%{
+    background-image: url('static/img/slideshow/2.jpg');
+  }
+  28.6%{
+    background-image: url('static/img/slideshow/2.jpg');
+  }
+  28.601%{
+    background-image: url('static/img/slideshow/3.jpg');
+  }
+  42.9%{
+    background-image: url('static/img/slideshow/3.jpg');
+  }
+  42.901%{
+    background-image: url('static/img/slideshow/4.jpg');
+  }
+  57.2%{
+    background-image: url('static/img/slideshow/4.jpg');
+  }
+  57.201%{
+    background-image: url('static/img/slideshow/5.jpg');
+  }
+  71.5%{
+    background-image: url('static/img/slideshow/5.jpg');
+  }
+  71.501%{
+    background-image: url('static/img/slideshow/6.jpg');
+  }
+  85.8%{
+    background-image: url('static/img/slideshow/6.jpg');
+  }
+  85.801%{
+    background-image: url('static/img/slideshow/7.jpg');
+  }
+  100%{
+    background-image: url('static/img/slideshow/7.jpg');
+  }
 }
 
 header{
@@ -54,55 +147,61 @@ nav{
 .title .name{
   color: #4a8b5c;
   font-weight: 1000;
-  font-size: 50px;
+  font-size: 8vw;
   text-align: center;
   text-transform: uppercase;
 }
 
-header .quotation{
+.quotation{
   margin: .5em 10px;
   padding: 0 10px;
   quotes: "\201C""\201D""\2018""\2019";
   /* padding: 10px 20px; */
   /* line-height: 1.4; */
   text-align: center;
+  font-size: 2vw;
 }
 
 .green-word{
   color: #4a8b5c;
 }
 
-header .quotation:before {
+.quotation:before {
   content: open-quote;
   display: inline;
   line-height: 0;
-  /* left: 175px; */
-  /* position: relative; */
+  left: 10px;
+  position: relative;
   /* top: 25px; */
-  color: #4a8b5c;
-  font-size: 1.5em;
+  /* color: #4a8b5c; */
+  color: white;
+  /* font-size: 1.5em; */
+  font-size: 2vw;
 }
 
-header .quotation:after {
+.quotation:after {
   content: close-quote;
   display: inline;
   line-height: 0;
   /* left: 0px; */
   position: relative;
   
-  /* top: 25px; */
-  color: #4a8b5c;
-  font-size: 1.5em;
+  /* top: 5px; */
+  /* color: #4a8b5c; */
+  color: white;
+  /* font-size: 1.5em; */
+  font-size: 2vw;
 }
 
 /* header .quotation {
   margin: 0;
 } */
 
-header .quotation-author{
+.quotation-author{
   margin:0;
   text-align: center;
-  font-size: 1em;
+  /* font-size: 1em; */
+  font-size: 2vw;
   font-style: italic;
 }
 
@@ -254,6 +353,10 @@ ul.scrollable li:hover {
   margin-left: 5%;
 }
 
+.project-category-container.first{
+  margin-top: 20px;
+}
+
 .project-category-container.last{
   margin-bottom: 0;
 }
@@ -305,10 +408,10 @@ ul.scrollable li:hover {
   width: 182px;
 }
 
-.carousel-cell.aspect-ratio-1200-1040{
+.carousel-cell.aspect-ratio-3806-2894{
   /*The aspect ratio is calculated like so:
   the right side of aspect ratio divided by left side, all this times .carousel-cell height*/
-  width: 173px;
+  width: 263px;
 }
 
 .carousel-cell.aspect-ratio-796-765{
@@ -335,10 +438,10 @@ ul.scrollable li:hover {
   width: 339px;
 }
 
-.carousel-cell.aspect-ratio-314-161{
+.carousel-cell.aspect-ratio-4032-3024{
   /*The aspect ratio is calculated like so:
   the right side of aspect ratio divided by left side, all this times .carousel-cell height*/
-  width: 390px;
+  width: 267px;
 }
 
 .carousel-cell.aspect-ratio-439-417{
@@ -450,6 +553,7 @@ ul.scrollable li:hover {
     margin-left: 10vmin;
     margin-right: 10vmin;
   }
+
     /* disable Flickity for small devices */
     /* .carousel:after {
       content: '';
