@@ -147,7 +147,7 @@ nav{
 .title .name{
   color: #4a8b5c;
   font-weight: 1000;
-  font-size: 11vw;
+  font-size: 11vmax;
   text-align: center;
   text-transform: uppercase;
 }
@@ -159,7 +159,7 @@ nav{
   /* padding: 10px 20px; */
   /* line-height: 1.4; */
   text-align: center;
-  font-size: 2vw;
+  font-size: 3vmax;
 }
 
 .green-word{
@@ -176,7 +176,7 @@ nav{
   /* color: #4a8b5c; */
   color: white;
   /* font-size: 1.5em; */
-  font-size: 2vw;
+  font-size: 3vmax;
 }
 
 .quotation:after {
@@ -190,7 +190,7 @@ nav{
   /* color: #4a8b5c; */
   color: white;
   /* font-size: 1.5em; */
-  font-size: 2vw;
+  font-size: 3vmax;
 }
 
 /* header .quotation {
@@ -201,7 +201,7 @@ nav{
   margin:0;
   text-align: center;
   /* font-size: 1em; */
-  font-size: 2vw;
+  font-size: 3vmax;
   font-style: italic;
 }
 
@@ -554,7 +554,7 @@ ul.scrollable li:hover {
     margin-right: 10vmin;
   }
 
-  .title .name{
+  /* .title .name{
     font-size: 13vw;
   }
 
@@ -572,7 +572,7 @@ ul.scrollable li:hover {
 
   .quotation-author{
     font-size: 4vw;
-  }
+  } */
 
     /* disable Flickity for small devices */
     /* .carousel:after {
