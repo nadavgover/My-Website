@@ -147,7 +147,7 @@ nav{
 .title .name{
   color: #4a8b5c;
   font-weight: 1000;
-  font-size: 8vw;
+  font-size: 11vw;
   text-align: center;
   text-transform: uppercase;
 }
@@ -552,6 +552,26 @@ ul.scrollable li:hover {
   body>header,section,footer {
     margin-left: 10vmin;
     margin-right: 10vmin;
+  }
+
+  .title .name{
+    font-size: 20vw;
+  }
+
+  .quotation{
+    font-size: 4vw;
+  }
+  
+  .quotation:before {
+    font-size: 4vw;
+  }
+  
+  .quotation:after {
+    font-size: 4vw;
+  }
+
+  .quotation-author{
+    font-size: 4vw;
   }
 
     /* disable Flickity for small devices */
