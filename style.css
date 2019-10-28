@@ -19,7 +19,7 @@ body{
     font-size: 16px;
 }
 
-body>header,section,footer{
+body>header,section{
     margin-left: 25vmin;
     margin-right: 25vmin;
 }
@@ -549,7 +549,7 @@ ul.scrollable li:hover {
 
 @media screen and ( max-width: 700px ) {
 
-  body>header,section,footer {
+  body>header,section {
     margin-left: 10vmin;
     margin-right: 10vmin;
   }
@@ -642,20 +642,18 @@ ul.scrollable li:hover {
 }
 
 
-
-/* footer{
-    background: black;
-    color: white;
-} */
-
-
-/* cards*/
-/*PEN STYLES*/
 * {
     box-sizing: border-box;
   }
 
   /* footer */
+
+footer{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
 .socialbtns ul {
     list-style: none;
     display: flex;
@@ -664,6 +662,8 @@ ul.scrollable li:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
     /* margin-top: 40px; */
 }
 
