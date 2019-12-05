@@ -139,6 +139,9 @@
                     <div class="carousel-cell aspect-ratio-1280-623">
                         <a href="#unsupervised-learning" data-lity><img src="static/img/em_clusters_wide.png" alt="EM algorithm clusters"></a>
                     </div>
+                    <div class="carousel-cell aspect-ratio-1031-625">
+                        <a href="#cnn" data-lity><img src="static/img/cnn.jpg" alt="Convolutional Neural Network"></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -749,6 +752,57 @@
 
             <p>
                 <a href="https://github.com/nadavgover/Splitwise" target="_blank">View code</a> on GitHub.
+            </p>
+        </div>
+    </div>
+
+    <div id="cnn" class="lightbox-content-scroll lity-hide">
+        <div class="scrollable-content">
+            <h2>Convolutional Neural Network</h2>
+            
+            <h3>Background</h3>
+            <p>
+                In this project we are experimenting with <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network" target="_blank">Convolutional Neural Network</a> (CNN) and different regulariztoin methods.
+                CNN is a type of a netwrok that performs well with images and object detection so it is only natural that we will deal with images.
+                And indeed, the data set for this project is FashionMNIST. The FashionMNIST is a dataset that consists of images of different clothing. 
+                Each image is a 28x28 grayscale image, associated with a label from 10 classes.
+                To get a feeling for the dataset we are working with, lets visualize it! 
+                </br>
+                </br>
+                <img src="static/img/fashion_mnist.png" alt="fashion mnist" style="width: 100%; max-width: 400px;">
+                </br>
+                </br>
+                The different regulariztoin methods that were under test are <a href="https://en.wikipedia.org/wiki/Dropout_(neural_networks)" target="_blank">dropout</a>, 
+                <a href="https://en.wikipedia.org/wiki/Regularization_(mathematics)" target="_blank">weight decay</a> and 
+                <a href="https://en.wikipedia.org/wiki/Batch_normalization" target="_blank">batch normalization</a>.
+            </p> 
+            <h3>Dropout</h3>
+            <p>
+                Dropout is a relatively new algorithm for training neural networks which relies on “dropping out” 
+                neurons during training in order to avoid overfitting.
+            </p>
+            <h3>Weight Decay</h3>
+            <p>
+                In complex networks the loss can get so high that when we come to update all our parameters (weights)
+                it will nullify them. For this we have weight decay. Before updating the network, we first change the loss 
+                just a little bit to prevent this problem. 
+            </p>
+            <h3>Batch Normalization</h3>
+            <p>
+                We normally normalize our input data. 
+                In batch normalization we also normalize the inputs of the hidden layer.
+                This gives us a big improvement in the training speed.
+            </p>
+            <p>
+                Below is a cool graph showing different learning rates during training the model for this project.
+                </br>
+                </br>
+                <img src="static/img/cnn.jpg" alt="different learning rates" style="width: 100%; max-width: 500px;">
+                </br>
+                </br>
+            </p>
+            <p>
+                <a href="https://github.com/nadavgover/Image-Rcognition/" target="_blank">View code</a> on GitHub.
             </p>
         </div>
     </div>

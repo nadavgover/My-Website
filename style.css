@@ -468,6 +468,12 @@ ul.scrollable li:hover {
   width: 287px;
 }
 
+.carousel-cell.aspect-ratio-1031-625{
+  /*The aspect ratio is calculated like so:
+  the right side of aspect ratio divided by left side, all this times .carousel-cell height*/
+  width: 330px;
+}
+
 
 .carousel .carousel-cell a{
   display: block;
