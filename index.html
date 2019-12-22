@@ -256,25 +256,25 @@
         <div class="scrollable-content">
             <h2>Bin Packing Problem</h2>
             <p>
-                in the <a href="https://en.wikipedia.org/wiki/Bin_packing_problem" target="_blank">Bin Packing problem</a>
+                In the <a href="https://en.wikipedia.org/wiki/Bin_packing_problem" target="_blank">Bin Packing problem</a>
                 items of different volumes must be packed into a finite number of bins or containers each of volume V in a way that minimizes the number of bins used.
                 It differs from the <a href="https://en.wikipedia.org/wiki/Knapsack_problem">multiple knapsack problem</a>
                 in that all items have to be packed to certain bins, whereas, in the multiple knapsack problem a subset of items can be selected.
             </p>
             <p>
                 The motivation for this project is to optimally place guests in an event with limited amount of tables.
-                The tables are the bins and the guests are the items. This problem is known to be NP-hard. 
-                To implement this with a short running time there was a use of <a href="https://en.wikipedia.org/wiki/Dynamic_programming" target="_blank">dynamic programming</a>. 
+                To make an analogy to the bin packing problem, the tables are the bins and the guests are the items. This problem is known to be NP-hard. 
+                To implement this with a short run time there was a use of <a href="https://en.wikipedia.org/wiki/Dynamic_programming" target="_blank">dynamic programming</a>. 
                 A matrix with rows representing the guests and columns representing the tables was implemented. Each entry
                 in the matrix is the amount of guests that could be placed with the current tables set.
             </p>
             <p>
-                To be more specific, each guest may have a constraint or many constraints. For example a guest can ask to be in a certain table or to sit next to some other guest.
-                Perhaps the guest requires a wheel chair and not all tables have the that option. And many other constraints.
+                Each guest may have a constraint or multiple constraints. For example, a guest can ask to be in a certain table or to sit next to some other guest.
+                Perhaps the guest requires a wheel chair and not all tables have that option. And many other constraints that were not mentioned here.
             </p>
             <p>
-                All of this the dynamic programming (dp) matrix takes into account and yields the best result 
-                with runtime of <br> O(number of guests + number of tables). 
+                All of this, the dynamic programming (dp) matrix takes into account and yields the best result 
+                with run time of <br> O(number of guests + number of tables). 
             </p>
             <p>
                 Bonus fact: This project is actually used in practice to place guests in the passover "seder" of Kibbutz Maagan Michael
