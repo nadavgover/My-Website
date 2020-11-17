@@ -49,11 +49,29 @@ const urlB64ToUint8Array = base64String => {
   });
   const showLocalNotification = (title, body, swRegistration) => {
     const options = {
-      body,
-      data: {
-        url: "www.google.com"
-      }
+      body
       // here you can add more properties like icon, image, vibrate, etc.
     };
     swRegistration.showNotification(title, options);
   };
+
+  self.addEventListener('notificationclick', function(event) {
+    let url = 'https://nadavgo.onelink.me/DWkr/58a6358b';
+    event.notification.close(); // Android needs explicit close.
+    event.waitUntil(
+        clients.matchAll({type: 'window'}).then( windowClients => {
+            // Check if there is already a window/tab open with the target URL
+            for (var i = 0; i < windowClients.length; i++) {
+                var client = windowClients[i];
+                // If so, just focus it.
+                if (client.url === url && 'focus' in client) {
+                    return client.focus();
+                }
+            }
+            // If not, then open the target URL in a new window/tab.
+            if (clients.openWindow) {
+                return clients.openWindow(url);
+            }
+        })
+    );
+});
