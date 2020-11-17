@@ -49,7 +49,10 @@ const urlB64ToUint8Array = base64String => {
   });
   const showLocalNotification = (title, body, swRegistration) => {
     const options = {
-      body
+      body,
+      data: {
+        url: "www.google.com"
+      }
       // here you can add more properties like icon, image, vibrate, etc.
     };
     swRegistration.showNotification(title, options);
