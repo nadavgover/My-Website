@@ -12,8 +12,8 @@ const urlB64ToUint8Array = base64String => {
   }
   // saveSubscription saves the subscription to the backend
   const saveSubscription = async subscription => {
-    const SERVER_URL = 'https://web-push-nadav.herokuapp.com/save-subscription'
-    const response = await fetch(SERVER_URL, {
+    const save_subscription_endpoint = 'https://web-push-nadav.herokuapp.com/save-subscription'
+    const response = await fetch(save_subscription_endpoint, {
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
@@ -39,10 +39,35 @@ const urlB64ToUint8Array = base64String => {
     }
   })
 
-  self.addEventListener("push", function(event) {
+  const updateShownCounter = async () => {
+    const shown_notification_endpoint = 'https://web-push-nadav.herokuapp.com/shown-notifications-counter'
+    const response = await fetch(shown_notification_endpoint, {
+      method: 'post'
+    })
+    return response.json()
+  }
+
+  const updateClickedCounter = async () => {
+    const clicked_notification_endpoint = 'https://web-push-nadav.herokuapp.com/clicked-notifications-counter'
+    const response = await fetch(clicked_notification_endpoint, {
+      method: 'post'
+    })
+    return response.json()
+  }
+
+  const updateClosedCounter = async () => {
+    const closed_notification_endpoint = 'https://web-push-nadav.herokuapp.com/dismissed-notifications-counter'
+    const response = await fetch(closed_notification_endpoint, {
+      method: 'post'
+    })
+    return response.json()
+  }
+
+  self.addEventListener("push", async function(event) {
     if (event.data) {
       console.log("Push event!! ", event.data.text());
       showLocalNotification("Check out this new car!", event.data.text(),  self.registration);
+      const response = await updateShownCounter()
     } else {
       console.log("Push event but no data");
     }
@@ -55,7 +80,7 @@ const urlB64ToUint8Array = base64String => {
     swRegistration.showNotification(title, options);
   };
 
-  self.addEventListener('notificationclick', function(event) {
+  self.addEventListener('notificationclick', async function(event) {
     let url = 'https://nadavgo.onelink.me/DWkr/58a6358b';
     event.notification.close(); // Android needs explicit close.
     event.waitUntil(
@@ -74,4 +99,18 @@ const urlB64ToUint8Array = base64String => {
             }
         })
     );
+  const response = await updateClickedCounter();
 });
+
+// self.addEventListener('notificationclose', (event) => {
+  // console.log('handle close with arrow');
+// }, false);
+
+self.addEventListener('notificationclose', async function(event) {
+  console.log("closed");
+  const response = await updateClosedCounter();
+});
+
+// self.onnotificationclose = function(event) {
+//   console.log('On notification close: ', event.notification.tag);
+// };
