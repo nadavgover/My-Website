@@ -78,7 +78,7 @@ const urlB64ToUint8Array = base64String => {
       icon: 'https://media.glassdoor.com/sqll/848476/appsflyer-squarelogo-1576132121964.png',
       image: 'https://massets.appsflyer.com/wp-content/uploads/2019/10/26232810/OneLink-logo.png',
       badge: 'https://www.freeiconspng.com/uploads/aotu-car-small-car-transportation-wheel-icon--12.png',
-      vibrate: [200, 200, 200],
+      vibrate: [200, 200, 200, 200, 200, 200, 200],
       actions: [
         {action: 'Ferrari', title: 'Ferrari', icon: 'https://cdn.iconscout.com/icon/free/png-512/ferrari-16-569500.png'},
         {action: 'Ford', title: 'Ford', icon: 'https://image.flaticon.com/icons/png/512/806/806092.png'}]
