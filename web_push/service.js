@@ -74,8 +74,15 @@ const urlB64ToUint8Array = base64String => {
   });
   const showLocalNotification = (title, body, swRegistration) => {
     const options = {
-      body
-      // here you can add more properties like icon, image, vibrate, etc.
+      body: body,
+      icon: 'https://media.glassdoor.com/sqll/848476/appsflyer-squarelogo-1576132121964.png',
+      image: 'https://massets.appsflyer.com/wp-content/uploads/2019/10/26232810/OneLink-logo.png',
+      badge: 'https://media.glassdoor.com/sqll/848476/appsflyer-squarelogo-1576132121964.png',
+      vibrate: [200, 200, 200],
+      actions: [
+        {action: 'Ferrari', title: 'Ferrari', icon: 'https://cdn.iconscout.com/icon/free/png-512/ferrari-16-569500.png'},
+        {action: 'Ford', title: 'Ford', icon: 'https://image.flaticon.com/icons/png/512/806/806092.png'}]
+      
     };
     swRegistration.showNotification(title, options);
   };
@@ -83,6 +90,14 @@ const urlB64ToUint8Array = base64String => {
   self.addEventListener('notificationclick', async function(event) {
     let url = 'https://nadavgo.onelink.me/DWkr/58a6358b';
     event.notification.close(); // Android needs explicit close.
+    
+    if (event.action === 'Ferrari' || event.action === 'Ford') {
+      console.log(`${event.action} clicked`);
+    }
+    else {
+      console.log('Clicked but not on CTA');
+    }
+
     event.waitUntil(
         clients.matchAll({type: 'window'}).then( windowClients => {
             // Check if there is already a window/tab open with the target URL
