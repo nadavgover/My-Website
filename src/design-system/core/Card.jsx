@@ -1,46 +1,20 @@
 import React from "react";
 import styled from "styled-components";
+import ActionButtons from "./ActionButtons";
 
 const Container = styled.div`
   background-color: ${({theme}) => theme.palette.background};
   filter: brightness(150%);
-  padding: ${({theme}) => theme.spacing(2)};
+  padding: ${({theme}) => theme.spacing(1.5)};
+  //box-shadow: 0 0 1px ${({theme}) => theme.palette.color};
+  border-radius: 4px;
+  overflow: hidden;
 `;
 
-const ActionsContainer = styled.div`
-  display: flex;
-  gap: ${({theme}) => theme.spacing(0.75)};
-  width: 100%;
-  justify-content: flex-start;
-  margin-bottom: ${({theme}) => theme.spacing(3.5)};
-`;
-
-const Action = styled.div`
-  width: ${({theme}) => theme.spacing(1.25)};
-  height: ${({theme}) => theme.spacing(1.25)};
-  border-radius: 50%;
-  
-  &:first-child {
-    background-color: ${({theme}) => theme.palette.third};
-  }
-  
-  &:nth-child(2) {
-    background-color: ${({theme}) => theme.palette.primary};
-  }
-  
-  &:nth-child(3) {
-    background-color: ${({theme}) => theme.palette.green};
-  }
-`;
-
-const Card = ({children, className}) => {
+const Card = ({children, className, onClick}) => {
   return (
-    <Container className={className}>
-      <ActionsContainer>
-        <Action />
-        <Action />
-        <Action />
-      </ActionsContainer>
+    <Container className={className} onClick={onClick}>
+      <ActionButtons />
       {children}
     </Container>
   );
