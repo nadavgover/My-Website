@@ -4,7 +4,7 @@ import styled from "styled-components";
 import {languages} from "../../constants/languages";
 
 const keywords = ["if", "const", "return", "let", "var", "and", "or"]
-const specialChars = ["(", ")", "{", "}", "[", "]", ";", "<", ">", "&", "|"]
+const specialChars = ["(", ")", "{", "}", "[", "]", ";", "<", ">", "&", "|", "="]
 
 const KeyWord = styled.span`
   color: ${({theme}) => theme.palette.primary};

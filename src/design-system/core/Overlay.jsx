@@ -9,9 +9,7 @@ const Container = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: ${({theme}) => lightenDarkenColor(theme.palette.background, 20)};
-  //width: 100vw;
-  //height: 100vh;
+  background-color: ${({theme}) => lightenDarkenColor(theme.palette.background, 20, 0.9)};
 `;
 
 const Content = styled.div`
@@ -21,14 +19,22 @@ const Content = styled.div`
   transform: translate(-50%, -50%);
   width: 85%;
   max-height: 80%;
+  padding: ${({theme}) => theme.spacing(2)};
   background-color: ${({theme}) => theme.palette.background};
   overflow-y: auto;
+  border-radius: ${({theme}) => theme.spacing(1)};
+  
+  @media only screen and (min-width: ${({theme}) => theme.breakpoints["xl"]}) {
+    width: 65%;
+  }
 `;
 
 const Actions = styled(ActionButtons)`
-  position: absolute;
-  top: ${({theme}) => theme.spacing(2)};
-  left: ${({theme}) => theme.spacing(2)};
+  position: sticky;
+  top: 0;
+  // top: -${({theme}) => theme.spacing()};
+  // left: ${({theme}) => theme.spacing(2)};
+  margin-bottom: ${({theme}) => theme.spacing(2)};
 `;
 
 const Overlay = ({className, children, onClose}) => {
@@ -40,8 +46,8 @@ const Overlay = ({className, children, onClose}) => {
 
   return (
     <Container className={className} onClick={onClose} onKeyDown={onEscapeClicked}>
-      <Actions onRedClick={onClose} onGreenClick={onClose} onYellowClick={onClose}/>
       <Content>
+        <Actions onRedClick={onClose} onGreenClick={onClose} onYellowClick={onClose}/>
         {children}
       </Content>
     </Container>

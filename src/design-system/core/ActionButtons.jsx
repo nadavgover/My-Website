@@ -3,15 +3,19 @@ import styled from "styled-components";
 
 const ActionsContainer = styled.div`
   display: flex;
-  gap: ${({theme}) => theme.spacing(0.75)};
+  gap: ${({theme}) => theme.spacing(1.5)};
   width: 100%;
   justify-content: flex-start;
   margin-bottom: ${({theme}) => theme.spacing(3.5)};
+  
+  @media only screen and (min-width: ${({theme}) => theme.breakpoints["xl"]}) {
+    gap: ${({theme}) => theme.spacing(1)};
+  }
 `;
 
 const Action = styled.div`
-  width: ${({theme}) => theme.spacing(1.25)};
-  height: ${({theme}) => theme.spacing(1.25)};
+  width: ${({theme}) => theme.spacing(1.5)};
+  height: ${({theme}) => theme.spacing(1.5)};
   border-radius: 50%;
   cursor: pointer;
   

@@ -13,6 +13,13 @@ import cryptographyImage from "../../assets/images/cryptography.jpeg";
 import emClustersImage from "../../assets/images/emClusters.png";
 import mnistImage from "../../assets/images/mnist.jpeg";
 
+import Wikipedia from "./Wikipedia";
+import PassoverMap from "./PassoverMap";
+import Splitwise from "./Splitwise";
+import Cryptography from "./Cryptography";
+import EMClusters from "./EMClusters";
+import DigitRecognition from "./DigitRecognition";
+
 const CardsContainer = styled.div`
   display: grid;
   gap: ${({theme}) => theme.spacing(1)};
@@ -51,6 +58,7 @@ const ProjectTitle = styled(Typography)`
   filter: brightness(75%);
   color: ${({theme}) => theme.palette.background};
   text-transform: capitalize;
+  border-radius: ${({theme}) => theme.spacing(0.25)};
   
   @media only screen and (min-width: ${({theme}) => theme.breakpoints["xl"]}) {
     transform: translateX(-150%);
@@ -66,32 +74,32 @@ const cardsConfig = [
   {
     image: bfsImage,
     title: "wikipedia game",
-    detail: <Typography variant="h2">Project detail 1</Typography>
+    detail: <Wikipedia />
   },
   {
     image: dpImage,
     title: "seat map",
-    detail: <Typography variant="h2">Project detail 2</Typography>
+    detail: <PassoverMap />
   },
   {
     image: ffImage,
     title: "splitwise",
-    detail: <Typography variant="h2">Project detail 3</Typography>
+    detail: <Splitwise />
   },
   {
     image: cryptographyImage,
     title: "cryptography",
-    detail: <Typography variant="h2">Project detail 4</Typography>
+    detail: <Cryptography />
   },
   {
     image: emClustersImage,
     title: "unsupervised learning",
-    detail: <Typography variant="h2">Project detail 5</Typography>
+    detail: <EMClusters />
   },
   {
     image: mnistImage,
     title: "digit recognition",
-    detail: <Typography variant="h2">Project detail 6</Typography>
+    detail: <DigitRecognition />
   }
 ]
 
