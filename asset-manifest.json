@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e4b3ffa.css",
+    "main.js": "/static/js/main.89deca63.js",
+    "static/media/cryptography.jpeg": "/static/media/cryptography.e7a34e939f561bf34ea7.jpeg",
+    "static/media/dynamicProgramming.jpeg": "/static/media/dynamicProgramming.3c34eb32661cc255d6a4.jpeg",
+    "static/media/emClusters.png": "/static/media/emClusters.1b1d05ca8b97925c72b5.png",
+    "static/media/trueClusters.png": "/static/media/trueClusters.7c3f90bf03238c8905ba.png",
+    "static/media/kmeansClusters.png": "/static/media/kmeansClusters.6eed0b7c2bc14eb30fe2.png",
+    "static/media/fordFelkerson.png": "/static/media/fordFelkerson.7680b356f83d22b380f7.png",
+    "static/media/hero.svg": "/static/media/hero.c566bf2490b3ac5a25cc8648ef618ba6.svg",
+    "static/media/mnist.jpeg": "/static/media/mnist.2331d0bc79571ae9ffb1.jpeg",
+    "static/media/mnistMisclassification.png": "/static/media/mnistMisclassification.4ddc3dddb8e8b4a8e75b.png",
+    "static/media/bfs.jpeg": "/static/media/bfs.daa27ce91ca3b58e401b.jpeg",
+    "index.html": "/index.html",
+    "main.2e4b3ffa.css.map": "/static/css/main.2e4b3ffa.css.map",
+    "main.89deca63.js.map": "/static/js/main.89deca63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e4b3ffa.css",
+    "static/js/main.89deca63.js"
+  ]
+}
