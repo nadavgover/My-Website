@@ -127,7 +127,7 @@ const Projects = () => {
 
     window.addEventListener("popstate", handlePopState);
     return () => window.removeEventListener("popstate", handlePopState);
-  }, [openedProjectDetail])
+  }, [openedProjectDetail]);
 
   return (
     <SectionContainer>
