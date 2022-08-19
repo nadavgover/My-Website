@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import styled from "styled-components";
 
 import SectionContainer from "../../design-system/core/SectionContainer";
@@ -109,11 +109,25 @@ const Projects = () => {
 
   const onProjectClick = projectDetail => {
     setOpenedProjectDetail(projectDetail);
+    window.history.pushState(null, null, window.location.pathname);
   };
 
   const onClose = () => {
     setOpenedProjectDetail("");
   };
+
+  useEffect(() => {
+    const handlePopState = () => {
+      if (!!openedProjectDetail) {
+        onClose();
+      } else {
+        window.history.back();
+      }
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [openedProjectDetail])
 
   return (
     <SectionContainer>
