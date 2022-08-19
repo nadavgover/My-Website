@@ -10,6 +10,7 @@ const Container = styled.div`
   bottom: 0;
   left: 0;
   background-color: ${({theme}) => lightenDarkenColor(theme.palette.background, 20, 0.9)};
+  z-index: 1;
 `;
 
 const Content = styled.div`
