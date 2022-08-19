@@ -81,13 +81,13 @@ const Paragraph = styled.p`
 }}
 `;
 
-const Typography = ({variant = "body2", className, children, ...rest}) => {
+const Typography = React.forwardRef(({variant = "body2", className, children, ...rest}, ref) => {
   return (
-    <Paragraph variant={variant} className={className} {...rest}>
+    <Paragraph ref={ref} variant={variant} className={className} {...rest}>
       {children}
     </Paragraph>
   )
-};
+});
 
 Typography.propTypes = {
   variant: PropTypes.oneOf(["h1", "h2", "h3", "body1", "body2", "body1-bold", "body2-bold", "button", "hero1"]).isRequired

@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useRef, useEffect, useState} from "react";
 import styled from "styled-components";
 import Typography from "../../design-system/core/Typography";
 import CodeEditor from "../../design-system/core/CodeEditor";
+import useWindowSize from "../../hooks/useWindowSize";
 
 const Container = styled.div`
   padding: ${({theme}) => theme.spacing(1)};
@@ -61,18 +62,27 @@ const Title = styled(Typography)`
 
 const Content = styled(Typography)`
   font-family: Hack, monospace;
-  max-height: ${p => p.isShown ? "20vh" : "0"};
+  max-height: ${p => p.isShown ? p.maxHeight : "0"};
   overflow: hidden;
   transition: max-height 0.2s linear;
   margin-top: ${({theme}) => theme.spacing(1)};
   white-space: pre-line;
+  margin-left: 21px;
 `;
 
 
 const Collapse = ({isShown, title, content, value, onClick, selectedLanguage}) => {
+  const contentRef = useRef(null);
+  const {width, height} = useWindowSize();
+  const [maxHeight, setMaxHeight] = useState("60px");
+
   const handleClick = () => {
     onClick(value);
   };
+
+  useEffect(() => {
+    setMaxHeight(`${contentRef.current.scrollHeight}px`);
+  }, [width, height])
 
   return (
     <Container id={value}>
@@ -82,7 +92,7 @@ const Collapse = ({isShown, title, content, value, onClick, selectedLanguage}) =
           <CodeEditor content={title} language={selectedLanguage}/>
         </Title>
       </HeaderContainer>
-      <Content variant="h3" isShown={isShown}>{content}</Content>
+      <Content ref={contentRef} variant="h3" isShown={isShown} maxHeight={maxHeight}>{content}</Content>
     </Container>
   )
 };

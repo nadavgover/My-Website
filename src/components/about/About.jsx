@@ -21,7 +21,7 @@ const abouts = [
       [languages.PYTHON]: "TLDR",
       [languages.CLOJURE]: "TLDR",
     },
-    content: "Nadav Gover is a software engineer who wants to make the world a better place."
+    content: "Nadav Gover is a {{software engineer}} who wants to make the world a better place."
   },
   {
     value: "grow-up",
@@ -33,10 +33,10 @@ const abouts = [
 
     },
     content: "Nadav was born and raised in Ma'agan Michael, Israel." +
-      "\nHe there learned to love the sea and he is a certified dive master." +
+      "\nHe there learned to love the sea and he is a certified {{dive master}}." +
       '\nTogether with his classmates he participated in "FIRST" robotics competition. ' +
-      'He also learnt how to play the drums and the saxophone and he played a lot of Tennis, he even went to Tennis camps in the US.' + "" +
-      "\nDuring middle and high school Nadav worked as a fishermen in the fish ponds, catching and sorting Gold and Koi fish." +
+      'He also learnt how to play the drums and the saxophone and he played a lot of {{Tennis}}, he even went to Tennis camps in the US.' + "" +
+      "\nDuring middle and high school Nadav worked as a {{fishermen}} in the fish ponds, catching and sorting Gold and Koi fish." +
       "The stories say he used to come back home after a long day of work full of fish scales, and fall asleep on his mother's sofa without even showering (disgusting!)."
   },
   {
@@ -49,8 +49,8 @@ const abouts = [
 
     },
     content: "Nadav was in the army." +
-      "\nHe served a year and a half in the air force pilot course as a fighter pilot, " +
-      "and another year and a half as a commander in the artillery forces."
+      "\nHe served a year and a half in the {{air force pilot course}} as a fighter pilot, " +
+      "and another year and a half as a {{commander in the artillery forces}}."
   },
   {
     value: "post-army",
@@ -62,9 +62,9 @@ const abouts = [
 
     },
     content: "Nadav saw code for the first time of his life!" +
-      "\nAfter the army Nadav was working in a precision metal cutting factory. He was sketching the metal parts and adjusting them to fit all the different cutting technologies in the factory. " +
-      "He then worked on a big product that will improve customers experience, and got his hands dirty with code for the first time of his life. " +
-      "He was working with a mentor, and mostly taught himself everything. He believes in doing stuff yourself in order to fully understand them."
+      "\nAfter the army Nadav was working in a {{precision metal cutting}} factory. He was {{sketching}} the metal parts and adjusting them to fit all the different cutting technologies in the factory. " +
+      "He then worked on a big product that will improve customers experience, and got his hands dirty with {{code for the first time}} of his life. " +
+      "He was working with a mentor, and mostly {{taught himself}} everything. He believes in doing stuff yourself in order to fully understand them."
   },
   {
     value: "university",
@@ -75,11 +75,11 @@ const abouts = [
       [languages.CLOJURE]: "(if (and (>= age 23) (< age 27)))",
 
     },
-    content: "Nadav studied electrical engineering in Tel Aviv University." +
-      "\nHe specialized in computers (hardware and software) and feedback and control systems." +
-      "\nHis curiosity never stopped and he made plenty of side projects. He was there exposed to the world of machine learning and his B.Sc. final project was all about that." +
-      "\nHe also got his first software engineer student position in AppsFlyer." +
-      "\nMost importantly this is when he started to play chess. Until today Nadav is a big fan of chess and will never say no to a game by a challenger."
+    content: "Nadav studied {{electrical engineering}} in {{Tel Aviv University}}." +
+      "\nHe specialized in {{computers (hardware and software)}} and {{feedback and control systems}}." +
+      "\nHis {{curiosity}} never stopped and he made plenty of side projects. He was there exposed to the world of machine learning and his B.Sc. final project was all about that." +
+      "\nHe also got his first {{software engineer student position}} in {{AppsFlyer}}." +
+      "\nMost importantly this is when he started to play {{chess}}. Until today Nadav is a big fan of chess and will never say no to a game by a challenger."
   },
   {
     value: "appsflyer",
@@ -90,14 +90,33 @@ const abouts = [
       [languages.CLOJURE]: "(if (>= age 27))",
 
     },
-    content: "Nadav is working as a full stack software engineer in AppsFlyer." +
-      "\nHe designs and implements new high scale products and maintains existing ones, using all of the buzzwords you can think of and more!" +
-      "\nNadav has a thing with frontend, he really likes it, he cares a lot for the user experience. He made some outstanding infrastructure changes to the frontend architecture, resulting with applications loading faster than ever before. " +
+    content: "Nadav is working as a {{full stack software engineer}} in AppsFlyer." +
+      "\nHe designs and implements new high scale products and maintains existing ones, using all of the {{buzzwords}} you can think of and more!" +
+      "\nNadav has a thing with {{frontend}}, he really likes it, he cares a lot for the user experience. He developed some outstanding {{infrastructure features}} to the frontend architecture, resulting with applications loading faster than ever before. " +
       "He independently conducted full stack cross-team features, making a big impact for the company's customers." +
-      "\nNadav is also a certified paramotor pilot, and he likes to fly whenever he gets a chance." +
-      "\nHe is motivated by a challenge and will never say no to one."
+      "\nNadav is also a certified {{paramotor pilot}}, and he likes to fly whenever he gets a chance." +
+      "\nHe is motivated by a {{challenge}} and will never say no to one."
   },
 ];
+
+const ColoredContent = styled.span`
+  color: ${({theme}) => theme.palette.primary};
+`;
+
+const RegularContent = styled.span``;
+
+const parseContent = content => {
+  const contentSplit = content.split(/[{}]{2}/).filter(Boolean);
+  const isEvenIndexColored = content.startsWith("{{");
+  return contentSplit.map((str, i) => {
+    const isEvenIndex = i % 2 === 0;
+    if ((isEvenIndexColored && isEvenIndex) || (!isEvenIndexColored && !isEvenIndex)) {
+      return <ColoredContent key={i}>{str}</ColoredContent>;
+    } else {
+      return <RegularContent key={i}>{str}</RegularContent>;
+    }
+  });
+};
 
 const About = () => {
   const [selectedAbouts, setSelectedAbouts] = useState([abouts[0].value]);
@@ -126,7 +145,7 @@ const About = () => {
                     isShown={selectedAbouts.includes(conf.value)}
                     onClick={onClick}
                     title={conf.title[selectedLanguage]}
-                    content={conf.content}
+                    content={parseContent(conf.content)}
                     selectedLanguage={selectedLanguage}/>
         ))}
       </AboutContainer>
