@@ -78,7 +78,8 @@ const abouts = [
     content: "Nadav studied electrical engineering in Tel Aviv University." +
       "\nHe specialized in computers (hardware and software) and feedback and control systems." +
       "\nHis curiosity never stopped and he made plenty of side projects. He was there exposed to the world of machine learning and his B.Sc. final project was all about that." +
-      "\nHe also got his first software engineer student position in AppsFlyer."
+      "\nHe also got his first software engineer student position in AppsFlyer." +
+      "\nMost importantly this is when he started to play chess. Until today Nadav is a big fan of chess and will never say no to a game by a challenger."
   },
   {
     value: "appsflyer",
@@ -93,7 +94,8 @@ const abouts = [
       "\nHe designs and implements new high scale products and maintains existing ones, using all of the buzzwords you can think of and more!" +
       "\nNadav has a thing with frontend, he really likes it, he cares a lot for the user experience. He made some outstanding infrastructure changes to the frontend architecture, resulting with applications loading faster than ever before. " +
       "He independently conducted full stack cross-team features, making a big impact for the company's customers." +
-      "\nNadav is motivated by a challenge and will never say no to one."
+      "\nNadav is also a certified paramotor pilot, and he likes to fly whenever he gets a chance." +
+      "\nHe is motivated by a challenge and will never say no to one."
   },
 ];
 

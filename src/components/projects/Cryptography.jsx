@@ -21,7 +21,6 @@ const Cryptography = () => {
 
       </CardParagraph>
 
-
       <CardSubSubtitle>Plaintext Score</CardSubSubtitle>
       <CardParagraph>
         We need a way to distinguish between English to Gibberish, so we need to make a scoring system. The scoring

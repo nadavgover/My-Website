@@ -36,6 +36,7 @@ const CardsContainer = styled.div`
 
 const ProjectCard = styled(Card)`
   cursor: pointer;
+  filter: brightness(150%);
 `;
 
 const ProjectContent = styled.div`

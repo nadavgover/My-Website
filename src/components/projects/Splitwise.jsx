@@ -1,5 +1,12 @@
 import React, {Fragment} from "react";
-import {CardTitle, CardSubtitle, CardParagraph, CardCode, CardImage, CardLink} from "../../design-system/core/CardElements";
+import {
+  CardTitle,
+  CardSubtitle,
+  CardParagraph,
+  CardCode,
+  CardImage,
+  CardLink
+} from "../../design-system/core/CardElements";
 import splitwiseImage from "../../assets/images/fordFelkerson.png";
 
 const Splitwise = () => {
@@ -74,9 +81,7 @@ const Splitwise = () => {
         </ol>
 
         And the results are pretty cool:
-
         <CardImage src={splitwiseImage} alt="Split expenses with Ford-Fulkerson"/>
-
         Alice gets 15$ from Dan and 10$ from Carol, Bob gets 5$ from Dan.
         Nice!
       </CardParagraph>

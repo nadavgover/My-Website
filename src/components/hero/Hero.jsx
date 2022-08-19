@@ -131,7 +131,7 @@ const Image = styled(ReactSVG)`
   & #Expression {
     & > * {
       animation-name: ${expressionAnimation};
-      animation-duration: 5s;
+      animation-duration: 4s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
     }

@@ -4,6 +4,9 @@ import {lightTheme, darkTheme} from "../design-system/themes/theme";
 import Hero from "./hero/Hero";
 import About from "./about/About";
 import Projects from "./projects/Projects";
+import Loaders from "./loaders/Loaders";
+import PuzzleOfTheDay from "./chess/PuzzleOfTheDay";
+import Footer from "./footer/Footer";
 
 const Container = styled.div`
   background-color: ${({theme}) => theme.palette.background};
@@ -17,6 +20,9 @@ const App = () => {
         <Hero />
         <About />
         <Projects />
+        <Loaders />
+        {/*<PuzzleOfTheDay />*/}
+        <Footer />
       </Container>
     </ThemeProvider>
   );

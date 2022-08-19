@@ -4,7 +4,7 @@ import ActionButtons from "./ActionButtons";
 
 const Container = styled.div`
   background-color: ${({theme}) => theme.palette.background};
-  filter: brightness(150%);
+  //filter: brightness(150%);
   padding: ${({theme}) => theme.spacing(1.5)};
   //box-shadow: 0 0 1px ${({theme}) => theme.palette.color};
   border-radius: 4px;

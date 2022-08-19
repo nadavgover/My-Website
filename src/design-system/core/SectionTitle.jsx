@@ -6,7 +6,7 @@ const Title = styled(Typography)`
   //margin-top: ${({theme}) => theme.spacing(4)};
   //margin-left: ${({theme}) => theme.spacing(2)};
   margin-bottom: ${({theme}) => theme.spacing(3)};
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: ${({theme}) => theme.palette.primary};;
   font-weight: 100;
   //@media only screen and (min-width: ${({theme}) => theme.breakpoints["xl"]}) {
