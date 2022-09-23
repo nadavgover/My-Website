@@ -7,6 +7,7 @@ import Projects from "./projects/Projects";
 import Loaders from "./loaders/Loaders";
 import PuzzleOfTheDay from "./chess/PuzzleOfTheDay";
 import Footer from "./footer/Footer";
+import ConsoleLog from "./ConsoleLog";
 
 const Container = styled.div`
   background-color: ${({theme}) => theme.palette.background};
@@ -16,6 +17,7 @@ const Container = styled.div`
 const App = () => {
   return (
     <ThemeProvider theme={darkTheme}>
+      <ConsoleLog />
       <Container>
         <Hero />
         <About />
