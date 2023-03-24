@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.2e4b3ffa.css",
-    "main.js": "/static/js/main.c6d66d60.js",
+    "main.js": "/static/js/main.e47c99f8.js",
     "static/media/cryptography.jpeg": "/static/media/cryptography.e7a34e939f561bf34ea7.jpeg",
     "static/media/dynamicProgramming.jpeg": "/static/media/dynamicProgramming.3c34eb32661cc255d6a4.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.45ee5550a2d812cb1057.pdf",
     "static/media/emClusters.png": "/static/media/emClusters.1b1d05ca8b97925c72b5.png",
     "static/media/trueClusters.png": "/static/media/trueClusters.7c3f90bf03238c8905ba.png",
     "static/media/kmeansClusters.png": "/static/media/kmeansClusters.6eed0b7c2bc14eb30fe2.png",
@@ -14,10 +15,10 @@
     "static/media/bfs.jpeg": "/static/media/bfs.daa27ce91ca3b58e401b.jpeg",
     "index.html": "/index.html",
     "main.2e4b3ffa.css.map": "/static/css/main.2e4b3ffa.css.map",
-    "main.c6d66d60.js.map": "/static/js/main.c6d66d60.js.map"
+    "main.e47c99f8.js.map": "/static/js/main.e47c99f8.js.map"
   },
   "entrypoints": [
     "static/css/main.2e4b3ffa.css",
-    "static/js/main.c6d66d60.js"
+    "static/js/main.e47c99f8.js"
   ]
 }
