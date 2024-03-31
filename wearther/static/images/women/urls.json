@@ -1,0 +1,504 @@
+{
+    "women": {
+        "chino shorts": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Chino_Shorts_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Chino_Shorts_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Chino_Shorts_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Chino_Shorts_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Chino_Shorts_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Chino_Shorts_Yellow.png"
+        },
+        "socks": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Socks_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Socks_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Socks_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Socks_Yellow.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Socks_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Socks_Green.png"
+        },
+        "summerhat": {
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Summerhat_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Summerhat_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Summerhat_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Summerhat_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Summerhat_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Summerhat_Purple.png"
+        },
+        "bermudashorts": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Bermudashorts_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Bermudashorts_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Bermudashorts_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Bermudashorts_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Bermudashorts_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Bermudashorts_Green.png"
+        },
+        "miniskirt": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Miniskirt_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Miniskirt_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Miniskirt_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Miniskirt_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Miniskirt_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Miniskirt_Black.png"
+        },
+        "womens suitw skirt": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitw_Skirt_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitw_Skirt_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitw_Skirt_Yellow.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitw_Skirt_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitw_Skirt_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitw_Skirt_Black.png"
+        },
+        "trousers": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Trousers_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Trousers_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Trousers_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Trousers_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Trousers_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Trousers_Red.png"
+        },
+        "skort": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Skort_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Skort_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Skort_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Skort_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Skort_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Skort_Purple.png"
+        },
+        "cardigan": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Cardigan_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Cardigan_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Cardigan_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Cardigan_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Cardigan_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Cardigan_Red.png"
+        },
+        "gloves": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Gloves_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Gloves_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Gloves_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Gloves_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Gloves_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Gloves_Green.png"
+        },
+        "long sleeve t shirt": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Long_Sleeve_T_Shirt_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Long_Sleeve_T_Shirt_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Long_Sleeve_T_Shirt_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Long_Sleeve_T_Shirt_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Long_Sleeve_T_Shirt_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Long_Sleeve_T_Shirt_Black.png"
+        },
+        "flipflops": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Flipflops_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Flipflops_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Flipflops_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Flipflops_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Flipflops_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Flipflops_Black.png"
+        },
+        "short sleeve t shirt": {
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Short_Sleeve_T_Shirt_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Short_Sleeve_T_Shirt_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Short_Sleeve_T_Shirt_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Short_Sleeve_T_Shirt_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Short_Sleeve_T_Shirt_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Short_Sleeve_T_Shirt_Green.png"
+        },
+        "croptop": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Croptop_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Croptop_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Croptop_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Croptop_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Croptop_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Croptop_Green.png"
+        },
+        "heel boots": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Boots_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Boots_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Boots_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Boots_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Boots_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Boots_Blue.png"
+        },
+        "winter autumn dress maxi": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Maxi_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Maxi_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Maxi_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Maxi_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Maxi_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Maxi_Green.png"
+        },
+        "hoodie": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Hoodie_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Hoodie_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Hoodie_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Hoodie_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Hoodie_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Hoodie_Black.png"
+        },
+        "winterboots": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterboots_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterboots_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterboots_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterboots_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterboots_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterboots_Red.png"
+        },
+        "loafers": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Loafers_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Loafers_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Loafers_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Loafers_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Loafers_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Loafers_Black.png"
+        },
+        "heel sandals": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Sandals_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Sandals_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Sandals_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Sandals_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Sandals_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Heel_Sandals_Blue.png"
+        },
+        "midiskirt": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Midiskirt_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Midiskirt_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Midiskirt_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Midiskirt_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Midiskirt_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Midiskirt_Green.png"
+        },
+        "summer spring dress maxi": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Maxi_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Maxi_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Maxi_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Maxi_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Maxi_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Maxi_Green.png"
+        },
+        "offtheshouldershortsleeve": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Offtheshouldershortsleeve_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Offtheshouldershortsleeve_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Offtheshouldershortsleeve_Yellow.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Offtheshouldershortsleeve_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Offtheshouldershortsleeve_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Offtheshouldershortsleeve_Black.png"
+        },
+        "exerciseshirtshort": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtshort_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtshort_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtshort_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtshort_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtshort_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtshort_Purple.png"
+        },
+        "yogapants": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Yogapants_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Yogapants_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Yogapants_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Yogapants_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Yogapants_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Yogapants_Red.png"
+        },
+        "overallsshorts": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Overallsshorts_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Overallsshorts_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Overallsshorts_Purple.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Overallsshorts_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Overallsshorts_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Overallsshorts_Green.png"
+        },
+        "culottes": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Culottes_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Culottes_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Culottes_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Culottes_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Culottes_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Culottes_Green.png"
+        },
+        "onepiece": {
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Onepiece_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Onepiece_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Onepiece_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Onepiece_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Onepiece_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Onepiece_Black.png"
+        },
+        "rainboots": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Rainboots_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Rainboots_Yellow.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Rainboots_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Rainboots_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Rainboots_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Rainboots_Green.png"
+        },
+        "flats": {
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Flats_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Flats_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Flats_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Flats_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Flats_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Flats_Black.png"
+        },
+        "turtle neck": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Turtle_Neck_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Turtle_Neck_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Turtle_Neck_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Turtle_Neck_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Turtle_Neck_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Turtle_Neck_Purple.png"
+        },
+        "exercisebra": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_exercisebra_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_exercisebra_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_exercisebra_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_exercisebra_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_exercisebra_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_exercisebra_Red.png"
+        },
+        "exerciseshorts": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshorts_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshorts_Purple.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshorts_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshorts_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshorts_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshorts_Blue.png"
+        },
+        "vest": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Vest_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Vest_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Vest_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Vest_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Vest_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Vest_Blue.png"
+        },
+        "sweaterbuttons": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweaterbuttons_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweaterbuttons_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweaterbuttons_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweaterbuttons_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweaterbuttons_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweaterbuttons_Red.png"
+        },
+        "exerciseleggings": {
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseleggings_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseleggings_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseleggings_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseleggings_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseleggings_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseleggings_Yellow.png"
+        },
+        "scarf": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Scarf_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Scarf_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Scarf_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Scarf_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Scarf_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Scarf_Yellow.png"
+        },
+        "maxiskirt": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Maxiskirt_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Maxiskirt_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Maxiskirt_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Maxiskirt_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Maxiskirt_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Maxiskirt_Blue.png"
+        },
+        "bikini": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Bikini_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Bikini_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Bikini_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Bikini_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Bikini_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Bikini_Yellow.png"
+        },
+        "overalls": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Overalls_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Overalls_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Overalls_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Overalls_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Overalls_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Overalls_Purple.png"
+        },
+        "shorts": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Shorts_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Shorts_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Shorts_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Shorts_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Shorts_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Shorts_Green.png"
+        },
+        "exerciseshirtlong": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtlong_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtlong_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtlong_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtlong_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtlong_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_exerciseshirtlong_Black.png"
+        },
+        "oxfordbuttondownshirt": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Oxfordbuttondownshirt_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Oxfordbuttondownshirt_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Oxfordbuttondownshirt_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Oxfordbuttondownshirt_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Oxfordbuttondownshirt_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Oxfordbuttondownshirt_Yellow.png"
+        },
+        "everyday sneakers": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Everyday_Sneakers_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Everyday_Sneakers_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Everyday_Sneakers_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Everyday_Sneakers_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Everyday_Sneakers_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Everyday_Sneakers_Blue.png"
+        },
+        "summer spring dress midi": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Midi_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Midi_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Midi_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Midi_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Midi_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Midi_Blue.png"
+        },
+        "tanktop": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Tanktop_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Tanktop_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Tanktop_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Tanktop_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Tanktop_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Tanktop_Yellow.png"
+        },
+        "womens suitwpants": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitwpants_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitwpants_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitwpants_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitwpants_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitwpants_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Womens_Suitwpants_Purple.png"
+        },
+        "tights": {
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Tights_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Tights_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Tights_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Tights_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Tights_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Tights_Purple.png"
+        },
+        "leggings": {
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Leggings_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Leggings_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Leggings_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Leggings_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Leggings_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Leggings_Purple.png"
+        },
+        "sweateroverthehead": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweateroverthehead_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweateroverthehead_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweateroverthehead_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweateroverthehead_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweateroverthehead_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Sweateroverthehead_Red.png"
+        },
+        "jeanslowwaisted": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Jeanslowwaisted_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Jeanslowwaisted_Purple.png"
+        },
+        "everydayboots": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Everydayboots_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Everydayboots_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Everydayboots_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Everydayboots_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Everydayboots_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Everydayboots_Blue.png"
+        },
+        "summer spring dress mini": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Mini_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Mini_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Mini_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Mini_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Mini_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Summer_Spring_Dress_Mini_Red.png"
+        },
+        "sandals": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Sandals_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Sandals_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Sandals_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Sandals_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Sandals_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Sandals_Purple.png"
+        },
+        "winterjacket": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterjacket_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterjacket_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterjacket_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterjacket_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterjacket_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterjacket_Red.png"
+        },
+        "poloshortsleeve": {
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Poloshortsleeve_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Poloshortsleeve_Purple.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Poloshortsleeve_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Poloshortsleeve_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Poloshortsleeve_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Poloshortsleeve_Blue.png"
+        },
+        "winter autumn dress midi": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Midi_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Midi_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Midi_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Midi_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Midi_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Midi_Blue.png"
+        },
+        "winter autumn dress mini": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Mini_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Mini_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Mini_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Mini_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Mini_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Winter_Autumn_Dress_Mini_Black.png"
+        },
+        "raincoat": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Raincoat_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Raincoat_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Raincoat_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Raincoat_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Raincoat_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Raincoat_Purple.png"
+        },
+        "winterhat": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterhat_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterhat_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterhat_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterhat_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterhat_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Winterhat_Yellow.png"
+        },
+        "pencilskirt": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Pencilskirt_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Pencilskirt_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Pencilskirt_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Pencilskirt_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Pencilskirt_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Pencilskirt_Purple.png"
+        },
+        "jeanshighwaisted": {
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Jeanshighwaisted_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Jeanshighwaisted_Purple.png"
+        },
+        "light jacket": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Light_Jacket_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Light_Jacket_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/women/Women_Light_Jacket_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/women/Women_Light_Jacket_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/women/Women_Light_Jacket_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/women/Women_Light_Jacket_Red.png"
+        },
+        "jean jacket": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/women/Women_Jean_Jacket_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/women/Women_Jean_Jacket_Green.png"
+        }
+    }
+}

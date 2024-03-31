@@ -1,0 +1,44 @@
+{
+    "unisex": {
+        "umbrella": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Umbrella_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Umbrella_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Umbrella_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Umbrella_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Umbrella_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Umbrella_Red.png"
+        },
+        "hiking boots": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Hiking_Boots_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Hiking_Boots_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Hiking_Boots_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Hiking_Boots_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Hiking_Boots_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Hiking_Boots_Red.png"
+        },
+        "slip ons": {
+            "green": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Slip_Ons_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Slip_Ons_Purple.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Slip_Ons_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Slip_Ons_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Slip_Ons_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Slip_Ons_Black.png"
+        },
+        "athletic sneakers": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Athletic_Sneakers_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Athletic_Sneakers_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Athletic_Sneakers_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Athletic_Sneakers_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Athletic_Sneakers_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Athletic_Sneakers_Yellow.png"
+        },
+        "lunettessoleil": {
+            "green": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Lunettessoleil_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Lunettessoleil_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Lunettessoleil_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Lunettessoleil_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Lunettessoleil_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/unisex/Unisex_Lunettessoleil_Yellow.png"
+        }
+    }
+}

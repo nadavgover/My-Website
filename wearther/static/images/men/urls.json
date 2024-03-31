@@ -1,0 +1,328 @@
+{
+    "men": {
+        "flipflops": {
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Flipflops_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Flipflops_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Flipflops_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Flipflops_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Flipflops_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Flipflops_Green.png"
+        },
+        "blazer": {
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Blazer_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Blazer_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Blazer_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Blazer_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Blazer_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Blazer_Purple.png"
+        },
+        "exerciseshirtlong": {
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtlong_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtlong_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtlong_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtlong_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtlong_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtlong_Purple.png"
+        },
+        "everyday sneakers": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Everyday_Sneakers_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Everyday_Sneakers_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Everyday_Sneakers_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Everyday_Sneakers_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Everyday_Sneakers_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Everyday_Sneakers_Black.png"
+        },
+        "swimmingtrunks": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_swimmingtrunks_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_swimmingtrunks_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_swimmingtrunks_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_swimmingtrunks_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_swimmingtrunks_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_swimmingtrunks_Blue.png"
+        },
+        "long sleeve t shirt": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Long_Sleeve_T_Shirt_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Long_Sleeve_T_Shirt_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Long_Sleeve_T_Shirt_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Long_Sleeve_T_Shirt_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Long_Sleeve_T_Shirt_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Long_Sleeve_T_Shirt_Yellow.png"
+        },
+        "leatherjacket": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Leatherjacket_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Leatherjacket_Green.png"
+        },
+        "trousers": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Trousers_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Trousers_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Trousers_Yellow.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Trousers_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Trousers_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Trousers_Black.png"
+        },
+        "corduroy": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Corduroy_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Corduroy_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Corduroy_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Corduroy_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Corduroy_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Corduroy_Purple.png"
+        },
+        "vest": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Vest_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Vest_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Vest_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Vest_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Vest_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Vest_Red.png"
+        },
+        "turtleneck": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Turtleneck_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Turtleneck_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Turtleneck_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Turtleneck_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Turtleneck_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Turtleneck_Yellow.png"
+        },
+        "exerciseshirtshort": {
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtshort_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtshort_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtshort_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtshort_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtshort_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_exerciseshirtshort_Blue.png"
+        },
+        "exercisepants": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_exercisepants_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_exercisepants_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_exercisepants_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_exercisepants_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_exercisepants_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_exercisepants_Black.png"
+        },
+        "socks": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Socks_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Socks_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Socks_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Socks_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Socks_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Socks_Red.png"
+        },
+        "chinoshorts": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Chinoshorts_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Chinoshorts_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Chinoshorts_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Chinoshorts_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Chinoshorts_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Chinoshorts_Black.png"
+        },
+        "oxfordbuttondownshirtlongsleeve": {
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtlongsleeve_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtlongsleeve_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtlongsleeve_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtlongsleeve_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtlongsleeve_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtlongsleeve_Green.png"
+        },
+        "raincoat": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Raincoat_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Raincoat_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Raincoat_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Raincoat_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Raincoat_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Raincoat_Red.png"
+        },
+        "hoodie": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Hoodie_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Hoodie_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Hoodie_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Hoodie_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Hoodie_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Hoodie_Black.png"
+        },
+        "business suit": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Business_Suit_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Business_Suit_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Business_Suit_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Business_Suit_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Business_Suit_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Business_Suit_Black.png"
+        },
+        "drawstringshorts": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Drawstringshorts_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Drawstringshorts_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Drawstringshorts_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Drawstringshorts_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Drawstringshorts_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Drawstringshorts_Black.png"
+        },
+        "casual suit": {
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Casual_Suit_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Casual_Suit_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Casual_Suit_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Casual_Suit_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Casual_Suit_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Casual_Suit_Green.png"
+        },
+        "sweaterbuttons": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweaterbuttons_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweaterbuttons_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweaterbuttons_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweaterbuttons_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweaterbuttons_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweaterbuttons_Red.png"
+        },
+        "sweateroverthehead": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweateroverthehead_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweateroverthehead_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweateroverthehead_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweateroverthehead_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweateroverthehead_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Sweateroverthehead_Red.png"
+        },
+        "gloves": {
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Gloves_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Gloves_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Gloves_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Gloves_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Gloves_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Gloves_Blue.png"
+        },
+        "short sleeve t shirt": {
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Short_Sleeve_T_Shirt_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Short_Sleeve_T_Shirt_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Short_Sleeve_T_Shirt_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Short_Sleeve_T_Shirt_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Short_Sleeve_T_Shirt_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Short_Sleeve_T_Shirt_Yellow.png"
+        },
+        "winterboots": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterboots_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterboots_Red.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterboots_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterboots_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterboots_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterboots_Blue.png"
+        },
+        "everydayboots": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Everydayboots_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Everydayboots_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Everydayboots_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Everydayboots_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Everydayboots_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Everydayboots_Black.png"
+        },
+        "chino": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Chino_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Chino_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Chino_Green.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Chino_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Chino_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Chino_Blue.png"
+        },
+        "poloshortsleeve": {
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Poloshortsleeve_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Poloshortsleeve_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Poloshortsleeve_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Poloshortsleeve_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Poloshortsleeve_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Poloshortsleeve_Blue.png"
+        },
+        "winterhat": {
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterhat_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterhat_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterhat_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterhat_Blue.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterhat_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterhat_Purple.png"
+        },
+        "rainbootsmen": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Rainbootsmen_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Rainbootsmen_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Rainbootsmen_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Rainbootsmen_Red.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Rainbootsmen_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Rainbootsmen_Black.png"
+        },
+        "light jacket": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Light_Jacket_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Light_Jacket_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Light_Jacket_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Light_Jacket_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Light_Jacket_Black.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Light_Jacket_Blue.png"
+        },
+        "winterjacket": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterjacket_Blue.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterjacket_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterjacket_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterjacket_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterjacket_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Winterjacket_Yellow.png"
+        },
+        "loafers": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Loafers_Yellow.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Loafers_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Loafers_Purple.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Loafers_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Loafers_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Loafers_Red.png"
+        },
+        "oxfordbuttondownshirtshortsleeve": {
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtshortsleeve_Blue.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtshortsleeve_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtshortsleeve_Yellow.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtshortsleeve_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtshortsleeve_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordbuttondownshirtshortsleeve_Purple.png"
+        },
+        "oxfordshoes": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordshoes_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Oxfordshoes_Purple.png"
+        },
+        "sandals": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Sandals_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Sandals_Green.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Sandals_Black.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Sandals_Red.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Sandals_Blue.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Sandals_Yellow.png"
+        },
+        "summerhat": {
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Summerhat_Red.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Summerhat_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Summerhat_Purple.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Summerhat_Black.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Summerhat_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Summerhat_Blue.png"
+        },
+        "scarf": {
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Scarf_Black.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Scarf_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Scarf_Green.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Scarf_Red.png",
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Scarf_Yellow.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Scarf_Blue.png"
+        },
+        "cardigan": {
+            "yellow": "https://www.nadavgover.com/wearther/static/images/men/Men_Cardigan_Yellow.png",
+            "black": "https://www.nadavgover.com/wearther/static/images/men/Men_Cardigan_Black.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Cardigan_Green.png",
+            "blue": "https://www.nadavgover.com/wearther/static/images/men/Men_Cardigan_Blue.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Cardigan_Purple.png",
+            "red": "https://www.nadavgover.com/wearther/static/images/men/Men_Cardigan_Red.png"
+        },
+        "jeans": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Jeans_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Jeans_Purple.png"
+        },
+        "jeanshorts": {
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Jeanshorts_Green.png",
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Jeanshorts_Purple.png"
+        },
+        "jean jacket": {
+            "purple": "https://www.nadavgover.com/wearther/static/images/men/Men_Jean_Jacket_Purple.png",
+            "green": "https://www.nadavgover.com/wearther/static/images/men/Men_Jean_Jacket_Green.png"
+        }
+    }
+}
